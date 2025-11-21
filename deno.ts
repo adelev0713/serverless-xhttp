@@ -1,10 +1,10 @@
 import { serve } from "https://deno.land/std/http/server.ts";
 
-const UUID: string = Deno.env.get("UUID") || "b70a3a2f-5eae-4311-ad37-29a30536e59b";
-const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";  //获取订阅路径
-const XPATH: string = Deno.env.get("XPATH") || "xhttp";      // 节点路径
-const DOMAIN: string = Deno.env.get("DOMAIN") || "";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
-const NAME: string = Deno.env.get("NAME") || "Deno";         // 名称
+const UUID: string = Deno.env.get("UUID") || "7cbee821-1915-4cc4-a603-b68e43575cb8";
+const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";         //获取订阅路径
+const XPATH: string = Deno.env.get("XPATH") || "superjet7069";      // 节点路径
+const DOMAIN: string = Deno.env.get("DOMAIN") || "";                // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
+const NAME: string = Deno.env.get("NAME") || "Deno";                // 名称
 const PORT: number = parseInt(Deno.env.get("PORT") || "3000"); 
 
 const SETTINGS: Settings = {
